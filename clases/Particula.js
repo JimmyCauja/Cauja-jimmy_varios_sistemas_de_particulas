@@ -3,8 +3,8 @@ class Particula {
         this.pos = createVector(_x, _y);
         this.lifespan = Math.ceil(random(10, 200));
         this.isAlive = true; 
-        this.side = Math.ceil(random(3, 15));
-        this.color = random(0, 150);
+        this.side = Math.ceil(random(10, 30));
+        this.color = random(170, 10, 0);
     }
     update() {
         this.r = random(100);  
@@ -33,7 +33,7 @@ class Particula {
     }
     display() {
         fill(this.color);
-        stroke(255);
-        square(this.pos.x, this.pos.y, this.side);
+        stroke( random, 100, 255,);
+        circle (this.pos.x, this.pos.y, this.side);
     }
 }

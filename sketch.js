@@ -8,9 +8,11 @@ function setup() {
 }
 
 function draw() {
-	background(10, 20,10);
+	background (43, 52, 153);
 	s.update();
 	s.display();
+	s.display();
 	v.update();
+	v.display();
 	v.display();
 }
